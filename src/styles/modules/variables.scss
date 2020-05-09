@@ -1,0 +1,77 @@
+/* _variables.scss */
+
+/* Grid */
+$base-grid-gap: 30px;
+
+/* Colors */
+$grey-100: #f6f7f8;
+$grey-200: #eef0f2;
+$grey-300: #e7eaed;
+$grey-400: #dbdee2;
+$grey-500: #cdd3d8;
+$grey-600: #adb5bd;
+$grey-700: #868e96;
+$grey-800: #495057;
+$grey-900: #343a3f;
+$grey-1000: #21252a;
+
+$purple-100: #4f2956;
+$purple-200: #7c288a;
+$purple-300: #9c27b0;
+$purple-400: #d563e9;
+$purple-500: #f6cffc;
+
+$yellow-100: #caa53c;
+$yellow-200: #f4ca64;
+$yellow-300: #fae2a0;
+
+$white: #fff;
+$black: #333;
+
+/* Font Family */
+$base-font-family: "Vollkorn", "Arial", "Sans-Serif";
+
+/* Font sizes */
+$f: 144px;
+$f0: 72px;
+$f1: 48px;
+$f2: 36px;
+$f3: 30px;
+$f4: 24px;
+$f5: 20px;
+$f6: 18px;
+$f7: 16px;
+$f8: 14px;
+$f9: 12px;
+$f10: 8px;
+$f11: 6px;
+
+/* Line heights */
+$base-line-height: 29px;
+$h3-line-height: 37px;
+$h2-line-height: 1.33em;
+$h1-line-height: 1.25em;
+
+/* Box Shadow */
+$x1: 0px;
+$y1: 2px;
+$blur1: 4px;
+$shadow-color1: rgba(0, 0, 0, 0.24);
+
+$x2: 0px;
+$y2: 3px;
+$blur2: 6px;
+$shadow-color2: rgba(0, 0, 0, 0.12);
+
+/* Border Radius */
+$base-border-radius: 5px;
+
+/* Font Weight */
+$normal-weight: 400;
+$heavy-weight: 900;
+
+/* Max Width */
+$base-max-width: 1000px;
+
+/* Base Padding */
+$base-padding: 15px;
