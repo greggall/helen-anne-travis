@@ -20,8 +20,10 @@ function MobileNav() {
   )
 }
 
-const rootElement = document.getElementById("roots")
-ReactDOM.render(<MobileNav />, rootElement)
+if (typeof window !== `undefined`) {
+  const rootElement = document.getElementById("root")
+  ReactDOM.render(<MobileNav />, rootElement)
+}
 
 class ButtonParent extends React.Component {
   constructor(props) {
