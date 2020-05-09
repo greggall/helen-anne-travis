@@ -3,7 +3,6 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-import "../styles/style.scss"
 import PortfolioCard from "../components/portfolio-card"
 import Button from "../components/button"
 

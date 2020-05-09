@@ -1,8 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import RadioCheckedList from "../components/radio-checked-list"
-import Button from "../components/button"
 
 export default props => {
   const data = useStaticQuery(graphql`

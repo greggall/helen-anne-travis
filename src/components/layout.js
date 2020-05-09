@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from "react-dom"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
 import Footer from "../components/footer"
 import SideBar from "../components/sidebar"
 

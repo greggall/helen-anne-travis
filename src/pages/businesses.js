@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Button from "../components/button"
-import ArrowCheckedList from "../components/arrow-checked-list.js"
+import ArrowCheckedList from "../components/arrow-checked-list"
 
 const ListLink = props => (
   <li>

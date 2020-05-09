@@ -2,12 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import { slide as Menu } from "react-burger-menu"
 
-const ListLink = props => (
-  <li>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
-
 class ButtonParent extends React.Component {
   constructor(props) {
     super(props)
