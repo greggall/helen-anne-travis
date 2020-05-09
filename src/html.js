@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import "../styles/style.scss"
 
 export default function HTML(props) {
   return (

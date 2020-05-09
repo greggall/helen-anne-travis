@@ -9,7 +9,6 @@ import ArrowCheckedList from "../components/arrow-checked-list.js"
 import CircleCheckedList from "../components/circle-checked-list.js"
 import Subtitle from "../components/subtitle"
 import Button from "../components/button"
-import "../styles/style.scss"
 
 const ListLink = props => (
   <li>
