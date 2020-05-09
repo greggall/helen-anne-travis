@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { Link } from "gatsby"
 import Footer from "../components/footer"
 import SideBar from "../components/sidebar"
+import "../styles/style.scss"
 
 const ListLink = props => (
   <li>
