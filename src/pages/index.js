@@ -4,8 +4,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Header from "../components/header"
 import Subtitle from "../components/subtitle"
-import RadioCheckedList from "../components/radio-checked-list"
-import ArrowCheckedList from "../components/arrow-checked-list"
+import RadioCheckedList from "../components/radio-checked-list.js"
 import Layout from "../components/layout"
 import Button from "../components/button"
 
@@ -24,13 +23,10 @@ const HomePage = ({ data }) => {
             Content You Can <span className="purple-copy">Count On</span>
           </h1>
 
-          {/* <p>Targeted, effective copy delivered on time, on brand and on spec.</p> */}
           <p className="home-hero-tagline">
             Engaging content and copy for busy teams that need it done right the
             first time.
           </p>
-          {/* <p class="home-hero-tagline">On brand.</p>
-              <p class="home-hero-tagline">On spec.</p> */}
 
           <ListLink to="/contact">
             <Button buttonText="Schedule A Call" />
@@ -43,15 +39,13 @@ const HomePage = ({ data }) => {
 
         <p>
           You know how important engaging content is to an organization’s bottom
-          line. But you and your team are busy. Like, really busy.
+          line. But you and your team are busy.
         </p>
+        <p>Like, really busy.</p>
+        <p>You need more than just a great writer.</p>
         <p>
-          You need a creative leader who can craft content that’s not just
-          beautifully written, but also delivered on time, on brand and on spec.
-        </p>
-        <p>
-          Someone who will make your job — and let’s be real, your life —
-          easier.
+          You need someone who will make your job — and let’s be real, your life
+          — easier.
         </p>
         <p>
           <strong>You’re in the right place.</strong>
@@ -64,29 +58,17 @@ const HomePage = ({ data }) => {
 
           <p>
             For the past 15 years (holy cow, has it really been that long?) I’ve
-            helped the world’s top agencies, brands and publications engage
-            their customers with content that motivates, inspires and sells.
+            helped the world’s top brands engage their customers with content
+            that motivates, inspires and sells.
           </p>
 
           <ul className="checked-list">
             <RadioCheckedList text="I’ve led massive marketing and editorial projects.">
-              I’ve led massive marketing and editorial projects.
+              I’ve led massive projects.
             </RadioCheckedList>
             <RadioCheckedList text="I’ve supervised large teams."></RadioCheckedList>
             <RadioCheckedList text="I’ve helped clients get the job done."></RadioCheckedList>
           </ul>
-
-          <div className="home-intro-quote">
-            {/* <Img
-                className="quotes-left-yellow"
-                fixed={data.image13.childImageSharp.fixed}
-                alt=""
-              /> */}
-
-            {/* <p className="quote">If you have an opportunity to work with Helen Anne, grab it.</p>
-              <h3 className="person">Jeff Burger</h3>
-              <p className="title">Editor <span className="dot">&#8226;</span> <em>Business Jet Traveler</em></p> */}
-          </div>
         </div>
       </div>
 
@@ -124,8 +106,8 @@ const HomePage = ({ data }) => {
               <h3>Businesses</h3>
 
               <p>
-                You know how important quality content is to your bottom line
-                but heck if you have time to write all that.
+                You know how important content is to your bottom line but heck
+                if you have time to write all that.
               </p>
 
               <Button buttonText="I Can Help" />
@@ -176,11 +158,7 @@ const HomePage = ({ data }) => {
           <p className="quote home-quote">
             If you have an opportunity to work with Helen Anne, grab it.
           </p>
-          {/* <Img
-              className="testimonial-image mindy-adams"
-              fixed={data.image14.childImageSharp.fixed}
-              alt=""
-            /> */}
+
           <h3 className="person">Jeff Burger</h3>
           <p className="title">
             Editor <span className="dot">&#8226;</span>{" "}
@@ -192,33 +170,25 @@ const HomePage = ({ data }) => {
       <div className="item different">
         <div className="different-copy mobile-padding">
           <Subtitle subtitleText="What Makes Me Different" />
-
           <p>
-            I cut my teeth covering breaking news for one of the country’s top
-            daily newspapers before leading the digital content strategy for
-            brands like Panasonic, Sony and Canon.{" "}
+            I started my career as a journalist at one of the country’s top
+            newspapers before leading the B2B and B2C communications for brands
+            like Panasonic, Sony and Canon.{" "}
           </p>
-
-          <ul className="checked-list">
-            <ArrowCheckedList text="I’ve led massive marketing and editorial projects."></ArrowCheckedList>
-            <ArrowCheckedList text="I’ve supervised large teams."></ArrowCheckedList>
-            <ArrowCheckedList text="I’ve helped clients get the job done."></ArrowCheckedList>
-          </ul>
-
           <p>
             I know how to weave a story, manage a team, and get the job done
             right the first time.
           </p>
-
           <p>
             <strong>Don’t risk it.</strong>
           </p>
-
           <p>
             When the details matter and deadlines drive everything, you need to
-            trust that your project is in the right hands. Don’t waste your
-            time, money and sanity on unreliable contractors who don’t take you
-            or your project seriously.
+            trust that your project is in the right hands.
+          </p>
+          <p>
+            Don’t waste your time, money and sanity on unreliable contractors
+            who don’t take you or your project seriously.
           </p>
         </div>
       </div>
@@ -234,8 +204,8 @@ const HomePage = ({ data }) => {
           <h2 className="subtitle">My Promise To You</h2>
 
           <p>
-            When we team up, you get more than a writer. You get a partner who’s
-            committed to your success.
+            When we team up, you get more than “just a writer.” You get a
+            partner who’s committed to your success.
           </p>
         </div>
 
@@ -278,47 +248,6 @@ const HomePage = ({ data }) => {
         </div>
       </div>
 
-      {/* <div className="how-it-works">
-          <div className="how-it-works-wrapper">
-            <h2 className="subtitle">How It Works</h2>
-
-            <h4>Step 1</h4>
-            <p>Schedule a call with me here.</p>
-            <Img
-                  className="how-it-works-line"
-                  fixed={data.image15.childImageSharp.fixed}
-                  alt=""
-              />
-            
-            <h4>Step 2</h4>
-            <p className="mobile-padding">We’ll chat for 20 minutes about your needs and goals, hopes and dreams.</p>
-            <Img
-                  className="how-it-works-line"
-                  fixed={data.image15.childImageSharp.fixed}
-                  alt=""
-              />
-
-            <h4>Step 3</h4>
-            <p className="mobile-padding">Together, we’ll develop a plan that allows you to focus on the other millions things on your to-do list while I focus on the copy.</p>
-            <Img
-                  className="how-it-works-line"
-                  fixed={data.image15.childImageSharp.fixed}
-                  alt=""
-              />
-
-            <h4>Step 4</h4>
-            <p>I get to work.</p>
-            <Img
-                  className="how-it-works-line"
-                  fixed={data.image15.childImageSharp.fixed}
-                  alt=""
-              />
-
-            <h4>Step 5</h4>
-            <p className="mobile-padding">You get to sit back, relax and feel total confidence that your project is in the right hands.</p>
-          </div>
-        </div> */}
-
       <div className="item hire-me">
         <h1 className="mobile-padding">What's It Going To Be?</h1>
 
@@ -335,8 +264,8 @@ const HomePage = ({ data }) => {
               />
 
               <p>
-                Spend your days circling back on emails, chasing down updates
-                and repeating instructions.
+                Spend hours following up on emails, chasing down updates and
+                repeating instructions.
                 <Img
                   className="right-yellow-arrow"
                   fixed={data.image17.childImageSharp.fixed}
@@ -354,7 +283,7 @@ const HomePage = ({ data }) => {
               />
 
               <p>
-                Insult your customers with copy full of errors, typos and
+                Insult your customers with copy that’s full of errors, typos and
                 jargon.
                 <Img
                   className="right-yellow-arrow"
@@ -373,8 +302,8 @@ const HomePage = ({ data }) => {
               />
 
               <p>
-                Risk your brand reputation by hiring someone who doesn’t take
-                the time to understand you, your goals or your readers’ needs.
+                Risk your reputation by hiring someone who doesn’t take the time
+                to understand your readers’ needs.
                 <Img
                   className="right-yellow-arrow"
                   fixed={data.image17.childImageSharp.fixed}
@@ -396,8 +325,7 @@ const HomePage = ({ data }) => {
               />
 
               <p>
-                Dazzle your clients, bosses and stakeholders with copy that’s
-                on-brand, on-spec and delivered on time.
+                Sit back and relax knowing that your project is in good hands.
               </p>
             </div>
 
@@ -424,8 +352,8 @@ const HomePage = ({ data }) => {
               />
 
               <p>
-                Trust your project to a skilled writer and leader with more than
-                15 years of editorial and marketing experience.
+                Trust your project to a skilled leader with more than 15 years
+                of editorial and marketing experience.
               </p>
             </div>
           </div>
