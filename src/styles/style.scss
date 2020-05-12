@@ -1463,7 +1463,7 @@ footer {
     background-image: url("../data/images/agencies-hero-mobile.jpg");
     padding: $f 0 $f0;
     text-shadow: 0 0 48px rgba(255, 255, 255, 1);
-    background-position: 25% 60%;
+    background-position: 0% 60%;
   }
 
   .looking-to-you-wrapper {
@@ -1566,6 +1566,10 @@ footer {
   .help-section-one-image,
   .help-section-two-image {
     grid-column: 1 / -1;
+  }
+
+  .agencies-hero-wrapper h1 {
+    text-shadow: 0 1px 7px #999;
   }
 
   .agencies-cta {
