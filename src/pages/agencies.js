@@ -27,8 +27,8 @@ const AgenciesPage = ({ data }) => {
         <div className="help-section-one-copy mobile-padding">
           <h2>People are looking to you for results.</h2>
           <p>
-            Your client wants top-notch custom content. Your boss wants the
-            project to be a raging success.
+            Your client wants top-notch copy. Your boss wants the project to be
+            a raging success.
           </p>
           <p>
             You need someone who can take the reins and get the job done because
@@ -60,11 +60,11 @@ const AgenciesPage = ({ data }) => {
         <div className="help-section-two-copy mobile-padding">
           <h2>I’ve been in your shoes…</h2>
           <p>
-            …tasked with running massive communications initiatives while
-            juggling the needs of clients, stakeholders and employees.
+            tasked with running massive projects while juggling the needs of
+            clients, stakeholders and employees.
           </p>
           <p>
-            I know how important is to find a freelancer who can run with a
+            I know how important it is to find a partner who can run with a
             project and deliver results that — let’s be frank — make you look
             good.
           </p>
@@ -140,8 +140,11 @@ const AgenciesPage = ({ data }) => {
             <h2 className="subtitle">Are you ready...</h2>
             <p>
               to join forces with a freelancer who’s obsessed with your clients’
-              success? Who knows how important it is to make everyone on your
-              team say “wow!”?
+              success?
+            </p>
+            <p>
+              Who knows how important it is to make everyone on your team say
+              “wow!”?
             </p>
             <p>Then let's chat!</p>
 
@@ -169,11 +172,11 @@ export const query = graphql`
       ...cover
     }
 
-    image5: file(relativePath: { eq: "business-logos/AdventHealth.png" }) {
+    image5: file(relativePath: { eq: "unused-business-logos/22Squared.png" }) {
       ...fixed
     }
 
-    image6: file(relativePath: { eq: "business-logos/TripAdvisor.png" }) {
+    image6: file(relativePath: { eq: "unused-business-logos/Spark.png" }) {
       ...fixed
     }
 
