@@ -941,7 +941,7 @@ ul ul {
 .contact-form {
   grid-column: 2 / 6;
   /* .contact-form and iframe must be equal in height */
-  height: 1500px;
+  height: 1700px;
   margin: -$f 0 $f0;
   box-shadow: 0 3px 6px $shadow-color1, 0 10px 20px $shadow-color2;
   background-color: $grey-100;
@@ -1532,7 +1532,12 @@ footer {
 
   .contact-form {
     grid-column: 1 / 7;
-    margin: -$f 0 $f0;
+    margin: -$f $f10 $f0;
+    height: 1750px;
+  }
+
+  iframe {
+    height: 1750px;
   }
 
   .portfolio-items {
