@@ -69,7 +69,7 @@ export default props => {
       <a className="menu-item" href="/portfolio">
         Portfolio
       </a>
-      <a className="menu-item" href="/content-marketing">
+      <a className="menu-item" href="/copywriting-content-marketing-services">
         Services
       </a>
       <a className="menu-item" href="/contact">
