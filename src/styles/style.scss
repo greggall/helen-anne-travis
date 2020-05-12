@@ -1584,12 +1584,18 @@ footer {
 
   .businesses-hero-wrapper {
     background-position: 37% 50%;
+    padding: $f 0 $f0;
   }
   
   .publications-cta, .businesses-cta {
     background-image: url('../data/images/agencies-cta.jpg');
     background-position: 21% 0%;
     background-size: cover;
+  }
+  
+  .content-marketing-hero-wrapper {
+    background-position: 43% 50%;
+    padding: $f 0 $f0;
   }
   
   .highlights ul, .schedule-call {
