@@ -39,7 +39,7 @@ const HomePage = ({ data }) => {
       </div>
 
       <div className="item smart-section mobile-padding">
-        <h2 className="subtitle">You're smart.</h2>
+        <h2>You're smart.</h2>
 
         <p>
           You know how important engaging content is to an organization’s bottom
