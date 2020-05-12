@@ -27,6 +27,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-166283610-1",
+      },
+    },
   ],
   siteMetadata: {
     title: "Helen Anne Travis",
