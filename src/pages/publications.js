@@ -28,8 +28,11 @@ const BusinessesPage = ({ data }) => {
           <h2>You need more than a great writer.</h2>
           <p>
             You need someone who’s obsessed with deadlines, style guides and
-            word count. Someone who has the experience — but not the ego — that
-            comes with working for the world’s top publications.
+            word count.
+          </p>
+          <p>
+            Someone who has the experience — but not the ego — that comes with
+            working for the world’s top publications.
           </p>
           <p>You need, well, me.</p>
         </div>
@@ -64,13 +67,10 @@ const BusinessesPage = ({ data }) => {
             deliver news and features that were held to the highest standards.
           </p>
           <p>
-            Since becoming a freelancer, I’ve written for publications and
-            websites including:
+            Since becoming a freelancer, I’ve written for some of the world’s
+            leading publications and websites.
           </p>
-          <p>
-            I’ve also led the creation of custom publications and helped editors
-            manage teams of freelance writers, photographers and designers.
-          </p>
+          <p>I’ve also led massive editorial projects for brands.</p>
           <p>
             When we work together, you get engaging stories that keep readers on
             the page. Deadlines are always met — and usually beat — and
@@ -121,11 +121,11 @@ const BusinessesPage = ({ data }) => {
             alt=""
           />
           <p className="quote">
-            Helen Anne was always someone that our editorial team could count on
-            for a variety of freelance assignments, ranging from lighthearted
-            lifestyle pieces to serious, medical-themed articles. Helen Anne
-            always pitched interesting ideas and upheld due dates. She truly was
-            a pleasure to work with.
+            Helen Anne was always someone our editorial team could count on for
+            a variety of assignments, ranging from lighthearted lifestyle pieces
+            to serious, medical-themed articles. Helen Anne always pitched
+            interesting ideas and upheld due dates. She truly was a pleasure to
+            work with.
           </p>
           <Img
             className="testimonial-image deidre-grieves"
@@ -145,9 +145,8 @@ const BusinessesPage = ({ data }) => {
           <div className="publications-cta-copy mobile-padding">
             <h2 className="subtitle">Are you ready...</h2>
             <p>
-              to join forces with a freelance journalist and editor who can get
-              the job done without balking at style guides, word counts and
-              feedback?
+              to join forces with a freelance writer who can get the job done
+              without balking at style guides, word counts and feedback?
             </p>
             <p>Then let's chat!</p>
 
