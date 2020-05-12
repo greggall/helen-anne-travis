@@ -56,7 +56,7 @@ class ButtonChild extends React.Component {
 
 export default props => {
   return (
-    <Menu width={250} right {...props}>
+    <Menu width={225} right {...props}>
       <a className="menu-item" href="/">
         Home
       </a>
