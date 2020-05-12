@@ -1585,6 +1585,10 @@ footer {
     text-align: left;
     margin-top: $f4;
   }
+
+  .content-marketing-hero-wrapper h1, .content-marketing-hero-wrapper p {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 375px) {
