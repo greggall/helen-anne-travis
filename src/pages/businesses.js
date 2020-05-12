@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Button from "../components/button"
-import ArrowCheckedList from "../components/arrow-checked-list"
+import ArrowCheckedList from "../components/arrow-checked-list.js"
 
 const ListLink = props => (
   <li>
@@ -26,19 +26,18 @@ const BusinessesPage = ({ data }) => {
 
       <div className="help-section-one">
         <div className="help-section-one-copy mobile-padding">
-          <h2>
-            You have a million great ideas in your head but no time to bring
-            them to life.
-          </h2>
+          <h2>Your head is swimming with content and copy ideas.</h2>
           <p>
-            Website content to develop, thought leadership pieces to write,
-            email campaigns that you know will turn readers into devoted
-            customers.
+            Whitepapers to write, landing pages to develop, email campaigns that
+            you know will turn readers into devoted customers.
           </p>
           <p>
-            There’s only one problem. You also have a million items on your
-            to-do list. There’s no time to craft, develop and execute an
-            effective content marketing strategy, let alone a single blog post.
+            There’s only one problem. You also have a million other items on
+            your to-do list.
+          </p>
+          <p>
+            There’s no time to craft, develop and execute an effective content
+            marketing strategy, let alone a single blog post.
           </p>
         </div>
 
@@ -66,16 +65,16 @@ const BusinessesPage = ({ data }) => {
           <h2>I’ve been there.</h2>
           <p>
             Before launching my business, I managed the B2B and B2C
-            communications for the world’s top tech brands. I always had a ton
-            of ideas on how to drive business, but not a ton of time.
+            communications for the world’s top tech brands.
           </p>
+          <p>I always had a ton of ideas, but not a ton of time.</p>
           <p>
             When I started freelancing, I knew I’d be a success if I could:{" "}
           </p>
 
           <ul className="checked-list">
             <ArrowCheckedList text="Help my clients achieve their goals — without wasting a second of their precious time"></ArrowCheckedList>
-            <ArrowCheckedList text="Get up to speed quickly on a project"></ArrowCheckedList>
+            <ArrowCheckedList text="Get up to speed quickly on any project"></ArrowCheckedList>
             <ArrowCheckedList text="Serve as a trusted extension of my client’s team"></ArrowCheckedList>
           </ul>
 
@@ -148,9 +147,9 @@ const BusinessesPage = ({ data }) => {
             <h2 className="subtitle">Are you ready...</h2>
             <p>
               to join forces with a copywriter who can help bring all your great
-              ideas to life? Someone who can get the job done without getting in
-              your way?
+              ideas to life?
             </p>
+            <p>Someone who can get the job done without getting in your way?</p>
             <p>Then let's chat!</p>
 
             <ListLink to="/contact">
