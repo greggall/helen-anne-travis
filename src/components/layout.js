@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { Link } from "gatsby"
 import Footer from "../components/footer"
 import SideBar from "../components/sidebar"
+import SEO from "../components/SEO/SEO"
 import "../styles/style.scss"
 
 const ListLink = props => (
@@ -67,6 +68,7 @@ class ButtonChild extends React.Component {
 
 export default ({ children }) => (
   <div className="site-wrapper" id="roots">
+    <SEO title="Copywriter and Content Marketer - Helen Anne Travis" />
     <header>
       <nav>
         <Link to="/">

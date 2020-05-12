@@ -8,7 +8,6 @@ import RadioCheckedList from "../components/radio-checked-list"
 import ArrowCheckedList from "../components/arrow-checked-list"
 import Layout from "../components/layout"
 import Button from "../components/button"
-import SEO from "../components/seo"
 
 const ListLink = props => (
   <li>
@@ -19,7 +18,6 @@ const ListLink = props => (
 const HomePage = ({ data }) => {
   return (
     <Layout>
-      <SEO />
       <div className="item hero-wrapper">
         <div className="hero-copy mobile-padding">
           <h1>

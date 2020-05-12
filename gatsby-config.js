@@ -30,11 +30,21 @@ module.exports = {
   ],
   siteMetadata: {
     title: "Helen Anne Travis",
-    titleTemplate: "%s · The Real Hero",
-    description: "Helen Anne Travis is a writer in Tampa, FL.",
+    titleTemplate: "%s · Helen Anne Travis",
+    titleAlt: "Helen Anne Travis",
+    headline: "Copywriting and Content Marketing by Helen Anne Travis",
+    description:
+      "Helen Anne Travis is a content marketer and copywriter in Tampa, FL.",
     url: "https://www.helenannetravis.com", // No trailing slash allowed!
-    image: "/images/sarah-suits.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@helenanne",
+    image: "/images/helen-anne-headshot.jpg", // Path to your image you placed in the 'static' folder
+    siteLanguage: "en",
+    ogLanguage: "en",
+    logo: "/images/helen-anne-headshot.jpg",
+    author: "Helen Anne Travis",
+    owner: "Helen Anne Travis",
+    twitter: "@helenanne",
     keywords: "writer, content-marketing",
+    facebook: "helen-anne-travis",
+    facebookAppID: "",
   },
 }
