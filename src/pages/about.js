@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
-import RadioCheckedList from "../components/radio-checked-list.js"
-import ArrowCheckedList from "../components/arrow-checked-list.js"
-import CircleCheckedList from "../components/circle-checked-list.js"
+import RadioCheckedList from "../components/radio-checked-list"
+import ArrowCheckedList from "../components/arrow-checked-list"
+import CircleCheckedList from "../components/circle-checked-list"
 import Subtitle from "../components/subtitle"
 import Button from "../components/button"
 
@@ -26,10 +26,7 @@ const AboutPage = ({ data }) => {
             <span className="purple-copy">Helen Anne</span>.
           </h1>
 
-          <p>
-            I write content and copy for the world’s biggest brands and
-            publications.
-          </p>
+          <p>I write content and copy for the world’s top brands.</p>
           <p>But it’s not about me.</p>
           <p>
             <i>It’s about you.</i>
@@ -61,16 +58,15 @@ const AboutPage = ({ data }) => {
           <div className="count-on-content">
             <p>
               When we team up, you get a partner who works as hard as you do to
-              ensure the project is a success.
+              ensure the project’s a success.
             </p>
             <p>
-              I have 15+ years of writing and content marketing experience,
-              including:
+              I have 15+ years of writing and marketing experience, including:
             </p>
             <ul className="checked-list">
               <ArrowCheckedList text="5 years covering breaking news at the Pulitzer Prize-winning Tampa Bay Times"></ArrowCheckedList>
               <ArrowCheckedList text="5 years leading the B2B and B2C messaging strategy for Sony, Canon and Panasonic"></ArrowCheckedList>
-              <ArrowCheckedList text="5 years leading editorial and marketing projects for TripAdvisor, MasterCard and Viacom"></ArrowCheckedList>
+              <ArrowCheckedList text="5 years managing editorial and marketing projects for TripAdvisor, MasterCard and Viacom"></ArrowCheckedList>
             </ul>
           </div>
         </div>
@@ -126,7 +122,7 @@ const AboutPage = ({ data }) => {
           <div className="working-with-me-copy mobile-padding">
             <h2>You’ll love working with me</h2>
             <ul className="checked-list">
-              <CircleCheckedList text="I free up your time. Now you can tackle the millions of other items on your to-do list. (Yeay?)"></CircleCheckedList>
+              <CircleCheckedList text="I free up your time. Now you can tackle the millions of other items on your to-do list. (Yay?)"></CircleCheckedList>
               <CircleCheckedList text="I make you look good. Your clients and stakeholders are going to be soooooooo happy with the results."></CircleCheckedList>
               <CircleCheckedList text="I get things done. Period."></CircleCheckedList>
             </ul>
@@ -201,7 +197,7 @@ const AboutPage = ({ data }) => {
               fixed={data.image6.childImageSharp.fixed}
               alt=""
             />
-            <p>Need high-quality content delivered on time and on spec</p>
+            <p>Need high-quality content and copy</p>
           </div>
 
           <div>
@@ -228,7 +224,9 @@ const AboutPage = ({ data }) => {
         <div className="mobile-padding">
           <Header headerText="Let's Do This!"></Header>
 
-          <p>Click to schedule a complimentary 30-minute consultation.</p>
+          <p>
+            Click below to schedule your complimentary 30-minute consultation.
+          </p>
 
           <ListLink to="/contact">
             <Button buttonText="Schedule A Call" />
