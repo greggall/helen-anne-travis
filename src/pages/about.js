@@ -149,13 +149,10 @@ const AboutPage = ({ data }) => {
             />
 
             <p className="quote">
-              Helen Anne writes beautifully engaging copy.
-              {/* From tight and crisp
-              to compelling and moving, she crafts it all with ease and grace. */}
-              She immerses herself so deeply in a brand's
-              {/* foundation and  */}
-              voice, she becomes fluent quickly. She's a rare partner. I'll
-              always be grateful for an opportunity to work with her.
+              Helen Anne writes beautifully engaging copy. She immerses herself
+              so deeply in a brand's voice, she becomes fluent quickly. She's a
+              rare partner. I'll always be grateful for an opportunity to work
+              with her.
             </p>
             <Img
               className="testimonial-image mindy-adams"
