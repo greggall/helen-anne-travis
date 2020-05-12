@@ -1598,6 +1598,14 @@ footer {
     padding: $f 0 $f0;
   }
   
+  .portfolio-hero-wrapper {
+    padding: $f 0 $f0;
+  }
+
+  .portfolio-hero-wrapper h1 {
+    max-width: 200px;
+  }
+  
   .highlights ul, .schedule-call {
     grid-template-columns: 1fr;
   }
