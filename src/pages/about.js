@@ -19,7 +19,8 @@ const ListLink = props => (
 const AboutPage = ({ data }) => {
   return (
     <Layout>
-      <div className="item about-hero-wrapper">
+      <div className="item hero-wrapper">
+        <Img className="hero-img" fluid={data.image1.childImageSharp.fluid} />
         <div className="hero-copy mobile-padding">
           <h1>
             Hi. I'm <br></br>
@@ -239,7 +240,7 @@ const AboutPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "images/About-Hero.jpg" }) {
+    image1: file(relativePath: { eq: "images/alt-about-hero.jpg" }) {
       ...cover
     }
 

@@ -68,6 +68,7 @@ header {
   width: 100%;
   top: $f4;
   max-width: $base-max-width;
+  z-index: 1;
 }
 
 .site-title {
@@ -245,12 +246,26 @@ ul ul {
 }
 
 /* Home */
+.hero {
+  margin-top: 50px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .hero-wrapper {
   grid-column: 1 / -1;
-  background-image: url("../data/images/Home-Hero.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
+  // background-image: url("../data/images/Home-Hero.jpg");
+  // background-size: cover;
+  // background-position: 50% 50%;
   padding: 225px 0 144px;
+  position: relative;
 }
 
 .hero-copy {
@@ -632,14 +647,6 @@ ul ul {
 }
 
 /* About */
-.about-hero-wrapper {
-  background-image: url("../data/images/alt-about-hero.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 50% 50%;
-  padding: 225px 0 144px;
-}
-
 .worked-hard {
   grid-column: 1 / -1;
   max-width: $base-max-width;
@@ -819,14 +826,6 @@ ul ul {
 }
 
 /* Agencies */
-.agencies-hero-wrapper {
-  background-image: url("../data/images/agencies-hero-mobile.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 50% 60%;
-  padding: 225px 0 $f;
-}
-
 .agencies-cta {
   grid-column: 1 / -1;
   background-image: url("../data/images/agencies-cta.jpg");
@@ -849,14 +848,6 @@ ul ul {
 }
 
 /* Businesses */
-.businesses-hero-wrapper {
-  background-image: url("../data/images/businesses-hero.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 50% 50%;
-  padding: 175px 0;
-}
-
 .businesses-hero-wrapper h1 {
   width: 100%;
   max-width: inherit;
@@ -884,14 +875,6 @@ ul ul {
 }
 
 /* Publications */
-.publications-hero-wrapper {
-  background-image: url("../data/images/publications-hero.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 53% 50%;
-  padding: 225px 0;
-}
-
 .publications-trusted-by-logos {
   @extend .trusted-by-logos;
   grid-template-columns: repeat(3, 1fr);
@@ -941,7 +924,7 @@ ul ul {
 .contact-form {
   grid-column: 2 / 6;
   /* .contact-form and iframe must be equal in height */
-  height: 1700px;
+  height: 1500px;
   margin: -$f 0 $f0;
   box-shadow: 0 3px 6px $shadow-color1, 0 10px 20px $shadow-color2;
   background-color: $grey-100;
@@ -977,13 +960,6 @@ iframe .container {
 }
 
 /* Portfolio */
-.portfolio-hero-wrapper {
-  background-image: url("../data/images/portfolio-hero.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 50% 50%;
-  padding: 225px 0 144px;
-}
 
 .portfolio-wrapper {
   grid-column: 1 / -1;
@@ -1042,14 +1018,6 @@ iframe .container {
 }
 
 /* Content Marketing */
-.content-marketing-hero-wrapper {
-  background-image: url("../data/images/content-marketing-hero.jpg");
-  grid-column: 1 / -1;
-  background-size: cover;
-  background-position: 50% 50%;
-  padding: 225px 0 144px;
-}
-
 .content-marketing-intro-wrapper {
   grid-column: 1 / -1;
   background: $grey-100;
@@ -1586,18 +1554,18 @@ footer {
     background-position: 37% 50%;
     padding: $f 0 $f0;
   }
-  
+
   .publications-cta, .businesses-cta {
     background-image: url('../data/images/agencies-cta.jpg');
     background-position: 21% 0%;
     background-size: cover;
   }
-  
+
   .content-marketing-hero-wrapper {
     background-position: 43% 50%;
     padding: $f 0 $f0;
   }
-  
+
   .portfolio-hero-wrapper {
     padding: $f 0 $f0;
   }
@@ -1605,7 +1573,7 @@ footer {
   .portfolio-hero-wrapper h1 {
     max-width: 200px;
   }
-  
+
   .highlights ul, .schedule-call {
     grid-template-columns: 1fr;
   }

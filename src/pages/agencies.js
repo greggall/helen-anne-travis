@@ -14,7 +14,8 @@ const ListLink = props => (
 const AgenciesPage = ({ data }) => {
   return (
     <Layout>
-      <div className="item agencies-hero-wrapper">
+      <div className="item hero-wrapper">
+        <Img className="hero-img" fluid={data.image1.childImageSharp.fluid} />
         <div className="hero-copy mobile-padding">
           {/* <p class="eyebrow">Agencies</p> */}
           <h1>
@@ -160,6 +161,10 @@ const AgenciesPage = ({ data }) => {
 
 export const query = graphql`
   query {
+    image1: file(relativePath: { eq: "images/agencies-hero-mobile.jpg" }) {
+      ...cover
+    }
+
     image2: file(relativePath: { eq: "images/agencies-results.png" }) {
       ...cover
     }

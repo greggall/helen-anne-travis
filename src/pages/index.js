@@ -18,6 +18,7 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <div className="item hero-wrapper">
+        <Img className="hero-img" fluid={data.image1.childImageSharp.fluid} />
         <div className="hero-copy mobile-padding">
           <h1>
             Content You Can <span className="purple-copy">Count On</span>
@@ -379,6 +380,10 @@ const HomePage = ({ data }) => {
 
 export const query = graphql`
   query {
+    image1: file(relativePath: { eq: "images/Home-Hero.jpg" }) {
+      ...cover
+    }
+
     image3: file(relativePath: { eq: "icons/quotes-left-grey.png" }) {
       ...fixed
     }

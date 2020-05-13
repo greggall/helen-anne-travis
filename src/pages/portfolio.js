@@ -3,6 +3,7 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
+// import "../styles/style.scss"
 import PortfolioCard from "../components/portfolio-card"
 import Button from "../components/button"
 
@@ -16,7 +17,11 @@ const Portfolio = ({ data }) => {
   return (
     <div>
       <Layout>
-        <div className="portfolio-hero-wrapper">
+        <div className="hero-wrapper">
+          <Img
+            className="hero-img"
+            fluid={data.image13.childImageSharp.fluid}
+          />
           <div className="hero-copy mobile-padding">
             <h1>
               Stories. Strategies. <span className="purple-copy">Results</span>.
@@ -254,6 +259,10 @@ export const query = graphql`
 
     image12: file(relativePath: { eq: "business-logos/PetMd.png" }) {
       ...fixed
+    }
+
+    image13: file(relativePath: { eq: "images/portfolio-hero.jpg" }) {
+      ...cover
     }
   }
 `
