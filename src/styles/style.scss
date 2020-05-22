@@ -975,7 +975,7 @@ iframe .container {
 
 .portfolio-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: $f1;
   max-width: $base-max-width;
   margin: 0 auto;
@@ -996,7 +996,7 @@ iframe .container {
 
 .portfolio-item {
   background-color: $white;
-  padding: $f6 $f3 $f3 $f3;
+  padding: $f6 $f3 $f5 $f3;
   border-bottom-left-radius: $base-border-radius;
   border-bottom-right-radius: $base-border-radius;
 }
@@ -1015,6 +1015,40 @@ iframe .container {
 .portfolio-item p {
   font-size: $f7;
   margin-bottom: 0;
+}
+
+.clips {
+  background-color: $grey-100;
+  padding-top: $f5;
+  border-bottom-right-radius: $base-border-radius;
+  border-bottom-left-radius: $base-border-radius;
+}
+
+.clips h4 {
+  padding: 0 $f3 0;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: $f7;
+  margin-bottom: $f5;
+}
+
+.clips-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.clips p {
+  font-size: $f7;
+  margin-bottom: 0;
+  padding: 0 $f3 $f5 $f3;
+}
+
+.clips a {
+  color: $purple-300;
+}
+
+.clips a:hover {
+  text-decoration: underline;
 }
 
 /* Content Marketing */
@@ -1525,6 +1559,10 @@ footer {
 @media (max-width: 425px) {
   .hero-copy h1 {
     font-size: $f2;
+  }
+
+  .hero-copy p {
+    max-width: 175px;
   }
 
   .home-intro {

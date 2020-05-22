@@ -24,265 +24,8 @@ const ContentMarketingPage = ({ data }) => {
           </h1>
           <p>
             My content and copywriting services help busy teams build meaningful
-            — and measurable — relationships with their target audience.
+            — and measurable — relationships with readers.
           </p>
-        </div>
-      </div>
-
-      <div className="package-wrap">
-        <div className="package-details">
-          <h1>Website Copywriting</h1>
-          <p className="package-eyebrow">Overview</p>
-          <div className="package-divider"></div>
-          <p className="package-description">
-            Whether you’re starting from scratch or updating an existing site, I
-            can help ensure your copy is optimized to bring in more leads —
-            without you having to lift a finger. To achieve this, I follow a
-            trusted process for researching your customers’ needs and nailing
-            your brand’s unique value proposition. Your competition is never
-            gonna know what hit ‘em.
-          </p>
-
-          <p className="package-eyebrow">Highlights</p>
-          <div className="package-divider"></div>
-
-          <div className="highlights">
-            <ul className="checked-list">
-              <p>
-                <span>&#183;</span> Build trust with{" "}
-                <strong>customer-centric copy</strong> that directly addresses
-                your readers’ needs
-              </p>
-              <p>
-                <span>&#183;</span> Ensure every page communicates your value.
-                <strong> No fluff, cliches or jargon</strong> allowed
-              </p>
-              <p>
-                <span>&#183;</span> Get{" "}
-                <strong>a website that acts as your top salesperson</strong>.
-                All you have to do is close the deal.
-              </p>
-            </ul>
-          </div>
-
-          <div className="schedule-call">
-            <div>
-              <p className="package-eyebrow">Investment</p>
-              <div className="package-divider"></div>
-              <p className="price">Starting at $2,600</p>
-            </div>
-            <div className="package-button">
-              <ListLink to="/contact">
-                <Button buttonText="Schedule A Call" />
-              </ListLink>
-            </div>
-          </div>
-        </div>
-        <div className="package-img">
-          <Img
-            className="website-copywriting"
-            fluid={data.image16.childImageSharp.fluid}
-            objectFit="cover"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div className="package-swap-background">
-        <div className="package-wrap-swap">
-          <div className="package-img-swap">
-            <Img
-              className="articles-blog-thought"
-              fluid={data.image17.childImageSharp.fluid}
-              objectFit="cover"
-              alt=""
-            />
-          </div>
-          <div className="package-details-swap">
-            <h1>Articles, Blogs and Thought Leadership Content</h1>
-            <p className="package-eyebrow">Overview</p>
-            <div className="package-divider"></div>
-            <p className="package-description">
-              Your readers are savvy. To get their attention, you have to
-              deliver magazine-worthy, well-researched content that addresses
-              their needs and helps them achieve their goals. You need more than
-              just a writer. You need someone with real-world journalism and
-              marketing experience to ensure each piece builds trust, creates
-              value and highlights your expertise.
-            </p>
-
-            <p className="package-eyebrow">Highlights</p>
-            <div className="package-divider"></div>
-
-            <div className="highlights">
-              <ul className="checked-list">
-                <p>
-                  <span>&#183;</span> Includes{" "}
-                  <strong>four 700-word articles</strong> optimized to your
-                  target keywords
-                </p>
-                <p>
-                  <span>&#183;</span> Increase traffic and leads with{" "}
-                  <strong>unique content</strong> that speaks directly to your
-                  target audience
-                </p>
-                <p>
-                  <span>&#183;</span> Keep readers on your site with
-                  <strong> narrative-driven</strong> content that motivates,
-                  entertains and inspires
-                </p>
-              </ul>
-            </div>
-
-            <div className="schedule-call">
-              <div>
-                <p className="package-eyebrow">Investment</p>
-                <div className="package-divider"></div>
-                <p className="price">Starting at $1,750</p>
-              </div>
-              <div className="package-button">
-                <ListLink to="/contact">
-                  <Button buttonText="Schedule A Call" />
-                </ListLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="package-wrap">
-        <div className="package-details">
-          <h1>Content Marketing 101</h1>
-          <p className="package-eyebrow">Overview</p>
-          <div className="package-divider"></div>
-          <p className="package-description">
-            You know a smart content marketing strategy can bring in more leads,
-            increase brand loyalty and boost your SEO ranking. But you also know
-            developing a successful strategy takes time. Time you may not have
-            if you’re juggling 16,000 other priorities. Let me help. With this
-            package, you’ll always know what to say and how to say it in a way
-            that resonates.
-          </p>
-
-          <p className="package-eyebrow">Highlights</p>
-          <div className="package-divider"></div>
-
-          <div className="highlights">
-            <ul className="checked-list">
-              <p>
-                <span>&#183;</span> Get actionable tips for{" "}
-                <strong>solving customer pain points</strong> at each stage of
-                the buying cycles
-              </p>
-              <p>
-                <span>&#183;</span> Understand the{" "}
-                <strong>keywords your target audience is using</strong> to find
-                content
-              </p>
-              <p>
-                <span>&#183;</span> Includes a{" "}
-                <strong>12-month editorial calendar</strong>, plus ideas for
-                boosting engagement on social media.
-              </p>
-            </ul>
-          </div>
-
-          <div className="schedule-call">
-            <div>
-              <p className="package-eyebrow">Investment</p>
-              <div className="package-divider"></div>
-              <p className="price">Starting at $3,999</p>
-            </div>
-            <div className="package-button">
-              <ListLink to="/contact">
-                <Button buttonText="Schedule A Call" />
-              </ListLink>
-            </div>
-          </div>
-        </div>
-        <div className="package-img">
-          <Img
-            className="website-copywriting"
-            fluid={data.image18.childImageSharp.fluid}
-            objectFit="cover"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div className="package-swap-background">
-        <div className="package-wrap-swap">
-          <div className="package-img-swap">
-            <Img
-              className="articles-blog-thought"
-              fluid={data.image19.childImageSharp.fluid}
-              objectFit="cover"
-              alt=""
-            />
-          </div>
-          <div className="package-details-swap">
-            <h1>Brand Messaging Development</h1>
-            <p className="package-eyebrow">Overview</p>
-            <div className="package-divider"></div>
-            <p className="package-description">
-              A great brand is built around a strong voice. In order to build
-              trust, that voice must be distinctive and recognizable. Most
-              important, it must be consistent. You focus on growing your
-              business. I’ll do the research and analysis necessary to develop a
-              messaging framework that ensures every customer interaction builds
-              trust and highlights your brand’s expertise.
-            </p>
-
-            <p className="package-eyebrow">Highlights</p>
-            <div className="package-divider"></div>
-
-            <div className="highlights">
-              <ul className="checked-list">
-                <p>
-                  <span>&#183;</span> Empower your whole team to effortlessly
-                  explain <strong>your brand’s value proposition</strong>
-                </p>
-                <p>
-                  <span>&#183;</span> Gain{" "}
-                  <strong>valuable audience insights</strong> with detailed
-                  buyer personas
-                </p>
-                <p>
-                  <span>&#183;</span> Identify{" "}
-                  <strong>opportunities to stand out</strong> in an increasingly
-                  crowded marketplace
-                </p>
-              </ul>
-            </div>
-
-            <div className="schedule-call">
-              <div>
-                <p className="package-eyebrow">Investment</p>
-                <div className="package-divider"></div>
-                <p className="price">Starting at $2,600</p>
-              </div>
-              <div className="package-button">
-                <ListLink to="/contact">
-                  <Button buttonText="Schedule A Call" />
-                </ListLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="about-cta packages-dont-see">
-        <div className="mobile-padding">
-          <Header headerText="Don't see exactly what you need above?"></Header>
-
-          <p>
-            Don’t stress. Schedule a call below so we can talk more about your
-            unique needs.
-          </p>
-
-          <ListLink to="/contact">
-            <Button buttonText="Schedule A Call" />
-          </ListLink>
         </div>
       </div>
 
@@ -319,6 +62,252 @@ const ContentMarketingPage = ({ data }) => {
             fixed={data.image9.childImageSharp.fixed}
             alt=""
           />
+        </div>
+      </div>
+
+      <div className="package-wrap">
+        <div className="package-details">
+          <h1>Website Copywriting</h1>
+          <p className="package-eyebrow">Overview</p>
+          <div className="package-divider"></div>
+          <p className="package-description">
+            Whether you’re starting from scratch or updating an existing site, I
+            can help ensure your copy is optimized to bring in more leads —
+            without you having to lift a finger. Your competition is never gonna
+            know what hit ‘em.
+          </p>
+
+          <p className="package-eyebrow">Highlights</p>
+          <div className="package-divider"></div>
+
+          <div className="highlights">
+            <ul className="checked-list">
+              <p>
+                <span>&#183;</span> Build trust with{" "}
+                <strong>customer-centric copy</strong> that directly addresses
+                your readers’ needs
+              </p>
+              <p>
+                <span>&#183;</span> Ensure every page communicates your value.
+                <strong> No fluff, cliches or jargon</strong> allowed
+              </p>
+              <p>
+                <span>&#183;</span> Get{" "}
+                <strong>a website that acts as your top salesperson</strong>.
+                All you have to do is close the deal.
+              </p>
+            </ul>
+          </div>
+
+          <div className="schedule-call">
+            <div>
+              <p className="package-eyebrow">Investment</p>
+              <div className="package-divider"></div>
+              <p className="price">Starting at $4,000</p>
+            </div>
+            <div className="package-button">
+              <ListLink to="/contact">
+                <Button buttonText="Schedule A Call" />
+              </ListLink>
+            </div>
+          </div>
+        </div>
+        <div className="package-img">
+          <Img
+            className="website-copywriting"
+            fluid={data.image16.childImageSharp.fluid}
+            objectFit="cover"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="package-swap-background">
+        <div className="package-wrap-swap">
+          <div className="package-img-swap">
+            <Img
+              className="articles-blog-thought"
+              fluid={data.image17.childImageSharp.fluid}
+              objectFit="cover"
+              alt=""
+            />
+          </div>
+          <div className="package-details-swap">
+            <h1>Custom Content And Copy Packages</h1>
+            <p className="package-eyebrow">Overview</p>
+            <div className="package-divider"></div>
+            <p className="package-description">
+              Your needs are unique and change from month to month. Let me help.
+              My custom monthly packages are designed to help you effortlessly
+              knock out the most pressing content and copy deliverables on your
+              to-do list.
+            </p>
+
+            <p className="package-eyebrow">Highlights</p>
+            <div className="package-divider"></div>
+
+            <div className="highlights">
+              <ul className="checked-list">
+                <p>
+                  <span>&#183;</span> Set monthly deliverables based on{" "}
+                  <strong>real-time business needs</strong>
+                </p>
+                <p>
+                  <span>&#183;</span> <strong>Build a robust pipeline</strong>{" "}
+                  of engaging content and copy assets
+                </p>
+                <p>
+                  <span>&#183;</span> Packages include{" "}
+                  <strong>consultations, editing and email support</strong>
+                </p>
+              </ul>
+            </div>
+
+            <div className="schedule-call">
+              <div>
+                <p className="package-eyebrow">Investment</p>
+                <div className="package-divider"></div>
+                <p className="price">Starting at $1,500 / mo.</p>
+              </div>
+              <div className="package-button">
+                <ListLink to="/contact">
+                  <Button buttonText="Schedule A Call" />
+                </ListLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="package-wrap">
+        <div className="package-details">
+          <h1>Content Marketing 101</h1>
+          <p className="package-eyebrow">Overview</p>
+          <div className="package-divider"></div>
+          <p className="package-description">
+            Get the insight you need to bring in more leads, increase brand
+            loyalty and boost your SEO ranking. With this package, you’ll always
+            know what to say and how to say it in a way that resonates with your
+            target audience.
+          </p>
+
+          <p className="package-eyebrow">Highlights</p>
+          <div className="package-divider"></div>
+
+          <div className="highlights">
+            <ul className="checked-list">
+              <p>
+                <span>&#183;</span> Get actionable tips for{" "}
+                <strong>solving customer pain points</strong> throughout the
+                buying cycle
+              </p>
+              <p>
+                <span>&#183;</span> Understand the{" "}
+                <strong>keywords your target readers use</strong> to find
+                content the need
+              </p>
+              <p>
+                <span>&#183;</span> Includes a{" "}
+                <strong>12-month editorial calendar</strong>, plus ideas for
+                boosting engagement
+              </p>
+            </ul>
+          </div>
+
+          <div className="schedule-call">
+            <div>
+              <p className="package-eyebrow">Investment</p>
+              <div className="package-divider"></div>
+              <p className="price">Starting at $2,500</p>
+            </div>
+            <div className="package-button">
+              <ListLink to="/contact">
+                <Button buttonText="Schedule A Call" />
+              </ListLink>
+            </div>
+          </div>
+        </div>
+        <div className="package-img">
+          <Img
+            className="website-copywriting"
+            fluid={data.image18.childImageSharp.fluid}
+            objectFit="cover"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="package-swap-background">
+        <div className="package-wrap-swap">
+          <div className="package-img-swap">
+            <Img
+              className="articles-blog-thought"
+              fluid={data.image19.childImageSharp.fluid}
+              objectFit="cover"
+              alt=""
+            />
+          </div>
+          <div className="package-details-swap">
+            <h1>Brand Messaging Development</h1>
+            <p className="package-eyebrow">Overview</p>
+            <div className="package-divider"></div>
+            <p className="package-description">
+              Your voice should be as unique as your brand. Let me do the
+              research and analysis necessary to develop a messaging framework
+              that ensures every customer interaction builds trust and
+              highlights your expertise.
+            </p>
+
+            <p className="package-eyebrow">Highlights</p>
+            <div className="package-divider"></div>
+
+            <div className="highlights">
+              <ul className="checked-list">
+                <p>
+                  <span>&#183;</span> Empower everyone on your team to
+                  effortlessly explain{" "}
+                  <strong>your brand’s value proposition</strong>
+                </p>
+                <p>
+                  <span>&#183;</span> Identify{" "}
+                  <strong>opportunities to stand out</strong> in an increasingly
+                  crowded marketplace
+                </p>
+                <p>
+                  <span>&#183;</span> <strong>New for 2020!</strong> Includes
+                  custom copy and content you can implement right away
+                </p>
+              </ul>
+            </div>
+
+            <div className="schedule-call">
+              <div>
+                <p className="package-eyebrow">Investment</p>
+                <div className="package-divider"></div>
+                <p className="price">Starting at $3,000</p>
+              </div>
+              <div className="package-button">
+                <ListLink to="/contact">
+                  <Button buttonText="Schedule A Call" />
+                </ListLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about-cta packages-dont-see">
+        <div className="mobile-padding">
+          <Header headerText="Don't see exactly what you need above?"></Header>
+
+          <p>
+            Don’t stress. Schedule a call below so we can talk more about your
+            unique needs.
+          </p>
+
+          <ListLink to="/contact">
+            <Button buttonText="Schedule A Call" />
+          </ListLink>
         </div>
       </div>
     </Layout>
