@@ -14,8 +14,6 @@ const ListLink = props => (
 )
 
 const Portfolio = ({ data }) => {
-  const siteUrl = window.location.origin
-
   return (
     <div>
       <Layout>
