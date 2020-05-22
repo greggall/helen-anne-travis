@@ -72,7 +72,7 @@ export default ({ children }) => (
     <header>
       <nav>
         <Link to="/">
-          <h3 className="site-title">Helen Anne Travis</h3>
+          <h3 className="site-title">Helen nne Travis</h3>
         </Link>
 
         <ul className="nav-list">
