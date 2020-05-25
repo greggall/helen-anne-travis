@@ -161,7 +161,7 @@ const AgenciesPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "images/agencies-hero-mobile.jpg" }) {
+    image1: file(relativePath: { eq: "images/agencies-hero-alt.jpg" }) {
       ...cover
     }
 
