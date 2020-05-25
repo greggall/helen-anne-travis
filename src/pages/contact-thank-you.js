@@ -9,17 +9,14 @@ const ContactPage = ({ data }) => {
       <div className="item contact-hero-wrapper">
         <div className="contact-hero-copy mobile-padding contact-wrapper">
           <h1>Thank you!</h1>
-
           <p>
             Thanks for taking the time to tell me more about your content and
-            copy goals. My head is already starting to spin with ideas on how I
-            can help you achieve them.
+            copy goals.
           </p>
+          <p>I’ll be in touch within two business days.</p>
           <p>
-            I’ll be in touch within two business days to either set up a call or
-            connect you with resources that I think will be helpful.
+            Cheers!<br></br>Helen Anne
           </p>
-          <p>Thanks again! Helen Anne</p>
         </div>
       </div>
     </Layout>
