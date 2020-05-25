@@ -165,7 +165,7 @@ const BusinessesPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "images/businesses-hero.jpg" }) {
+    image1: file(relativePath: { eq: "images/businesses-hero-alt.jpg" }) {
       ...cover
     }
 
