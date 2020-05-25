@@ -124,7 +124,7 @@ const AboutPage = ({ data }) => {
             <h2>You’ll love working with me</h2>
             <ul className="checked-list">
               <CircleCheckedList text="I free up your time. Now you can tackle the millions of other items on your to-do list. (Yay?)"></CircleCheckedList>
-              <CircleCheckedList text="I make you look good. Your clients and stakeholders are going to be soooooooo happy with the results."></CircleCheckedList>
+              <CircleCheckedList text="I make you look good. Your clients and stakeholders will be soooooooo happy with the results."></CircleCheckedList>
               <CircleCheckedList text="I get things done. Period."></CircleCheckedList>
             </ul>
             {/* <Img
