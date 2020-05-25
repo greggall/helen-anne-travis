@@ -67,6 +67,7 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="package-wrap">
         <div className="package-details">
+          <p className="package-eyebrow">Package #1</p>
           <h1>Website Copywriting</h1>
           <p className="package-eyebrow">Overview</p>
           <div className="package-divider"></div>
@@ -133,6 +134,7 @@ const ContentMarketingPage = ({ data }) => {
             />
           </div>
           <div className="package-details-swap">
+            <p className="package-eyebrow">Package #2</p>
             <h1>Custom Content And Copy Packages</h1>
             <p className="package-eyebrow">Overview</p>
             <div className="package-divider"></div>
@@ -181,6 +183,7 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="package-wrap">
         <div className="package-details">
+          <p className="package-eyebrow">Package #3</p>
           <h1>Content Marketing 101</h1>
           <p className="package-eyebrow">Overview</p>
           <div className="package-divider"></div>
@@ -248,6 +251,7 @@ const ContentMarketingPage = ({ data }) => {
             />
           </div>
           <div className="package-details-swap">
+            <p className="package-eyebrow">Package #4</p>
             <h1>Brand Messaging Development</h1>
             <p className="package-eyebrow">Overview</p>
             <div className="package-divider"></div>
