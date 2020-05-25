@@ -45,8 +45,8 @@ const HomePage = ({ data }) => {
         <p>Like, really busy.</p>
         <p>You need more than just a great writer.</p>
         <p>
-          You need someone who will make your job — and let’s be real, your life
-          — easier.
+          You need someone who will make your job — and let’s be real, your{" "}
+          <em>life</em>— easier.
         </p>
         <p>
           <strong>You’re in the right place.</strong>
