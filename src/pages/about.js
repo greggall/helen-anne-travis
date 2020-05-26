@@ -52,7 +52,7 @@ const AboutPage = ({ data }) => {
         <div className="count-on-wrapper mobile-padding">
           <div className="count-on-title">
             <h1>
-              Count You Can <span class="yellow-copy">Count On</span>
+              Content You Can <span class="yellow-copy">Count On</span>
             </h1>
           </div>
 
