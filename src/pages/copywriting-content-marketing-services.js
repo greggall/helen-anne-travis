@@ -207,7 +207,7 @@ const ContentMarketingPage = ({ data }) => {
               <p>
                 <span>&#183;</span> Understand the{" "}
                 <strong>keywords your target readers use</strong> to find
-                content the need
+                content they need
               </p>
               <p>
                 <span>&#183;</span> Includes a{" "}
