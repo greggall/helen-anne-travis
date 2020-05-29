@@ -19,7 +19,7 @@ const AgenciesPage = ({ data }) => {
         <div className="hero-copy mobile-padding">
           {/* <p class="eyebrow">Agencies</p> */}
           <h1>
-            Make them<br></br>say <span className="purple-copy">"wow"</span>!
+            Make Them<br></br>Say <span className="purple-copy">"Wow"</span>!
           </h1>
         </div>
       </div>
@@ -59,7 +59,7 @@ const AgenciesPage = ({ data }) => {
         </div>
 
         <div className="help-section-two-copy mobile-padding">
-          <h2>I’ve been in your shoes…</h2>
+          <h2>I’ve been in your shoes …</h2>
           <p>
             tasked with running massive projects while juggling the needs of
             clients, stakeholders and employees.
@@ -138,7 +138,7 @@ const AgenciesPage = ({ data }) => {
       <div className="agencies-cta">
         <div className="agencies-cta-wrapper">
           <div className="agencies-cta-copy mobile-padding">
-            <h2 className="subtitle">Are you ready...</h2>
+            <h2 className="subtitle">Are you ready ...</h2>
             <p>
               to join forces with a freelancer who’s obsessed with your clients’
               success?
