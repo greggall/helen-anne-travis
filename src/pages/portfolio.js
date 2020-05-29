@@ -61,14 +61,6 @@ const Portfolio = ({ data }) => {
                     </p>
                     <p>
                       <a
-                        href="https://media.clippings.me/cuttingpdfs/1128800/4dac2b126c7061443fe60d13572b5adf.pdf?&_ga=2.4508787.158224766.1590011952-739005866.1580308791"
-                        target="_blank"
-                      >
-                        Services
-                      </a>
-                    </p>
-                    <p>
-                      <a
                         href="https://media.clippings.me/cuttingpdfs/1127069/53e8bf77192957301f4aafa093c8014a.pdf?&_ga=2.71310868.601475816.1589917949-739005866.1580308791"
                         target="_blank"
                       >
@@ -101,7 +93,7 @@ const Portfolio = ({ data }) => {
                   alt=""
                 />
                 <PortfolioCard
-                  service="E-commerce"
+                  service="e-Commerce"
                   category="Sales Copy"
                   intro="Launching a new website isn’t easy. But it’s a heck of a lot easier when you have an experienced copywriter on your team. I helped the Relay team find and develop their brand voice. I also worked with multiple stakeholders to create copy for their website, sales pages and lead magnets."
                 />
