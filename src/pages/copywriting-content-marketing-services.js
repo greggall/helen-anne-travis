@@ -20,7 +20,7 @@ const ContentMarketingPage = ({ data }) => {
         <div className="hero-copy mobile-padding">
           {/* <p class="eyebrow">Agencies</p> */}
           <h1>
-            Build trust. <span className="purple-copy">Drive sales</span>.
+            Build Trust. <span className="purple-copy">Drive Sales</span>.
           </h1>
           <p>
             My content and copywriting services help busy teams build meaningful
@@ -75,7 +75,7 @@ const ContentMarketingPage = ({ data }) => {
             Whether you’re starting from scratch or updating an existing site, I
             can help ensure your copy is optimized to bring in more leads —
             without you having to lift a finger. Your competition is never gonna
-            know what hit ‘em.
+            know what hit 'em.
           </p>
 
           <p className="package-eyebrow">Highlights</p>
@@ -90,12 +90,12 @@ const ContentMarketingPage = ({ data }) => {
               </p>
               <p>
                 <span>&#183;</span> Ensure every page communicates your value.
-                <strong> No fluff, cliches or jargon</strong> allowed
+                <strong> No fluff, clich&eacute;s or jargon</strong> allowed
               </p>
               <p>
                 <span>&#183;</span> Get{" "}
-                <strong>a website that acts as your top salesperson</strong>.
-                All you have to do is close the deal.
+                <strong>a website that acts as your top salesperson</strong> —
+                all you have to do is close the deal.
               </p>
             </ul>
           </div>
