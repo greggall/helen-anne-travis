@@ -18,8 +18,8 @@ const BusinessesPage = ({ data }) => {
         <Img className="hero-img" fluid={data.image1.childImageSharp.fluid} />
         <div className="hero-copy mobile-padding">
           <h1>
-            No drama.<br></br>
-            <span className="purple-copy">Just great content</span>.
+            No Drama.<br></br>
+            <span className="purple-copy">Just Great Content</span>.
           </h1>
         </div>
       </div>
@@ -64,7 +64,7 @@ const BusinessesPage = ({ data }) => {
             Tampa Bay Times.
           </h2>
           <p>
-            Daily, I worked with multiple editors under tight deadlines to
+            Eevry day, I worked with multiple editors under tight deadlines to
             deliver news and features that were held to the highest standards.
           </p>
           <p>
@@ -74,7 +74,7 @@ const BusinessesPage = ({ data }) => {
           <p>I’ve also led massive editorial projects for brands.</p>
           <p>
             When we work together, you get engaging stories that keep readers on
-            the page. Deadlines are always met — and usually beat — and
+            the page. Deadlines are always met — and usually beaten — and
             revisions are drama-free.
           </p>
         </div>
@@ -144,7 +144,7 @@ const BusinessesPage = ({ data }) => {
       <div className="publications-cta">
         <div className="publications-cta-wrapper">
           <div className="publications-cta-copy mobile-padding">
-            <h2 className="subtitle">Are you ready...</h2>
+            <h2 className="subtitle">Are you ready ...</h2>
             <p>
               to join forces with a freelance writer who can get the job done
               without balking at style guides, word counts and feedback?
