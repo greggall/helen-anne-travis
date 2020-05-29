@@ -65,7 +65,7 @@ const AboutPage = ({ data }) => {
               I have 15+ years of writing and marketing experience, including:
             </p>
             <ul className="checked-list">
-              <ArrowCheckedList text="5 years covering breaking news at the Pulitzer Prize—winning Tampa Bay Times"></ArrowCheckedList>
+              <ArrowCheckedList text="5 years covering breaking news at the Pulitzer Prize-winning Tampa Bay Times"></ArrowCheckedList>
               <ArrowCheckedList text="5 years leading the B2B and B2C messaging strategy for Sony, Canon and Panasonic"></ArrowCheckedList>
               <ArrowCheckedList text="5 years managing editorial and marketing projects for TripAdvisor, Mastercard and Viacom"></ArrowCheckedList>
             </ul>
