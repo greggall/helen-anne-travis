@@ -46,7 +46,7 @@ const HomePage = ({ data }) => {
         <p>You need more than just a great writer.</p>
         <p>
           You need someone who will make your job — and let’s be real, your{" "}
-          <em>life</em> — easier.
+          <em>life</em>— easier.
         </p>
         <p>
           <strong>You’re in the right place.</strong>

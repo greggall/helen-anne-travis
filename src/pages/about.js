@@ -42,7 +42,7 @@ const AboutPage = ({ data }) => {
         </h2>
         <p>You want — no, you deserve — a partner who can:</p>
         <ul className="checked-list worked-hard-checked-list">
-          <RadioCheckedList text="Produce high quality content, on deadline and on voice"></RadioCheckedList>
+          <RadioCheckedList text="Produce high-quality content, on deadline and on voice"></RadioCheckedList>
           <RadioCheckedList text="Serve as a trusted extension of your team"></RadioCheckedList>
           <RadioCheckedList text="Get the job done right the first time"></RadioCheckedList>
         </ul>
@@ -65,9 +65,9 @@ const AboutPage = ({ data }) => {
               I have 15+ years of writing and marketing experience, including:
             </p>
             <ul className="checked-list">
-              <ArrowCheckedList text="5 years covering breaking news at the Pulitzer Prize-winning Tampa Bay Times"></ArrowCheckedList>
+              <ArrowCheckedList text="5 years covering breaking news at the Pulitzer Prize—winning Tampa Bay Times"></ArrowCheckedList>
               <ArrowCheckedList text="5 years leading the B2B and B2C messaging strategy for Sony, Canon and Panasonic"></ArrowCheckedList>
-              <ArrowCheckedList text="5 years managing editorial and marketing projects for TripAdvisor, MasterCard and Viacom"></ArrowCheckedList>
+              <ArrowCheckedList text="5 years managing editorial and marketing projects for TripAdvisor, Mastercard and Viacom"></ArrowCheckedList>
             </ul>
           </div>
         </div>
@@ -121,7 +121,7 @@ const AboutPage = ({ data }) => {
       <div className="working-with-me">
         <div className="working-with-me-wrapper">
           <div className="working-with-me-copy mobile-padding">
-            <h2>You’ll love working with me</h2>
+            <h2>You’ll Love Working With Me</h2>
             <ul className="checked-list">
               <CircleCheckedList text="I free up your time. Now you can tackle the millions of other items on your to-do list. (Yay?)"></CircleCheckedList>
               <CircleCheckedList text="I make you look good. Your clients and stakeholders will be soooooooo happy with the results."></CircleCheckedList>
