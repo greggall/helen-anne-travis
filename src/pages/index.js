@@ -36,7 +36,7 @@ const HomePage = ({ data }) => {
       </div>
 
       <div className="item smart-section mobile-padding">
-        <h2>You're smart.</h2>
+        <h2>You're Smart.</h2>
 
         <p>
           You know how important engaging content is to an organization’s bottom
@@ -177,7 +177,7 @@ const HomePage = ({ data }) => {
             like Panasonic, Sony and Canon.{" "}
           </p>
           <p>
-            I know how to weave a story, manage a team, and get the job done
+            I know how to weave a story, manage a team and get the job done
             right the first time.
           </p>
           <p>
