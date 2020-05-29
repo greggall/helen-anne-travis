@@ -19,8 +19,8 @@ const BusinessesPage = ({ data }) => {
         <Img className="hero-img" fluid={data.image1.childImageSharp.fluid} />
         <div className="hero-copy mobile-padding">
           <h1>
-            It's time to<br></br>
-            <span className="purple-copy">get it done</span>.
+            It's Time To<br></br>
+            <span className="purple-copy">Get It Done</span>.
           </h1>
         </div>
       </div>
@@ -145,7 +145,7 @@ const BusinessesPage = ({ data }) => {
       <div className="businesses-cta">
         <div className="businesses-cta-wrapper">
           <div className="businesses-cta-copy mobile-padding">
-            <h2 className="subtitle">Are you ready...</h2>
+            <h2 className="subtitle">Are you ready ...</h2>
             <p>
               to join forces with a copywriter who can help bring all your great
               ideas to life?
