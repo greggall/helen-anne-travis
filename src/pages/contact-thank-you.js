@@ -8,7 +8,7 @@ const ContactPage = ({ data }) => {
     <Layout>
       <div className="item contact-hero-wrapper">
         <div className="contact-hero-copy mobile-padding contact-wrapper">
-          <h1>Thank you!</h1>
+          <h1>Thank You!</h1>
           <p>
             Thanks for taking the time to tell me more about your content and
             copy goals.
