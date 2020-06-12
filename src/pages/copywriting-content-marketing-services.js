@@ -172,7 +172,7 @@ const ContentMarketingPage = ({ data }) => {
               <div>
                 <p className="package-eyebrow">Investment</p>
                 <div className="package-divider"></div>
-                <p className="price">Starting at $1,850 for 4 blog posts</p>
+                <p className="price">Starting at $1,850 for four blog posts</p>
               </div>
               <div className="package-button">
                 <ListLink to="/contact">
