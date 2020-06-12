@@ -128,21 +128,21 @@ const ContentMarketingPage = ({ data }) => {
           <div className="package-img-swap">
             <Img
               className="articles-blog-thought"
-              fluid={data.image17.childImageSharp.fluid}
+              fluid={data.image18.childImageSharp.fluid}
               objectFit="cover"
               alt=""
             />
           </div>
           <div className="package-details-swap">
             <p className="package-eyebrow">Package #2</p>
-            <h1>Custom Content And Copy Packages</h1>
+            <h1>Blogging Packages</h1>
             <p className="package-eyebrow">Overview</p>
             <div className="package-divider"></div>
             <p className="package-description">
-              Your needs are unique and change from month to month. Let me help.
-              My custom monthly packages are designed to help you effortlessly
-              knock out the most pressing content and copy deliverables on your
-              to-do list.
+              Readers are savvy. To get their attention, you need more than
+              “just a blogger.” You need someone with real-world journalism and
+              marketing experience to ensure each post builds trust, creates
+              value and highlights your expertise.
             </p>
 
             <p className="package-eyebrow">Highlights</p>
@@ -151,16 +151,19 @@ const ContentMarketingPage = ({ data }) => {
             <div className="highlights">
               <ul className="checked-list">
                 <p>
-                  <span>&#183;</span> Set monthly deliverables based on{" "}
-                  <strong>real-time business needs</strong>
+                  <span>&#183;</span>{" "}
+                  <strong>Increase traffic and leads.</strong> Google loves
+                  websites that regularly post new content!
                 </p>
                 <p>
-                  <span>&#183;</span> <strong>Build a robust pipeline</strong>{" "}
-                  of engaging content and copy assets
+                  <span>&#183;</span>{" "}
+                  <strong>Stand out from the competition</strong> with a blog
+                  that motivates, entertains and inspires
                 </p>
                 <p>
-                  <span>&#183;</span> Packages include{" "}
-                  <strong>consultations, editing and email support</strong>
+                  <span>&#183;</span> Each package{" "}
+                  <strong>includes four 600-word posts</strong>, research and
+                  professional editing
                 </p>
               </ul>
             </div>
@@ -169,7 +172,7 @@ const ContentMarketingPage = ({ data }) => {
               <div>
                 <p className="package-eyebrow">Investment</p>
                 <div className="package-divider"></div>
-                <p className="price">Starting at $1,500 / mo.</p>
+                <p className="price">Starting at $1,850 for 4 blog posts</p>
               </div>
               <div className="package-button">
                 <ListLink to="/contact">
@@ -233,7 +236,7 @@ const ContentMarketingPage = ({ data }) => {
         <div className="package-img">
           <Img
             className="website-copywriting"
-            fluid={data.image18.childImageSharp.fluid}
+            fluid={data.image19.childImageSharp.fluid}
             objectFit="cover"
             alt=""
           />
@@ -245,14 +248,14 @@ const ContentMarketingPage = ({ data }) => {
           <div className="package-img-swap">
             <Img
               className="articles-blog-thought"
-              fluid={data.image19.childImageSharp.fluid}
+              fluid={data.image17.childImageSharp.fluid}
               objectFit="cover"
               alt=""
             />
           </div>
           <div className="package-details-swap">
             <p className="package-eyebrow">Package #4</p>
-            <h1>Brand Messaging Development</h1>
+            <h1>Custom Content and Copy</h1>
             <p className="package-eyebrow">Overview</p>
             <div className="package-divider"></div>
             <p className="package-description">
@@ -268,18 +271,16 @@ const ContentMarketingPage = ({ data }) => {
             <div className="highlights">
               <ul className="checked-list">
                 <p>
-                  <span>&#183;</span> Empower everyone on your team to
-                  effortlessly explain{" "}
-                  <strong>your brand’s value proposition</strong>
+                  <span>&#183;</span> Set monthly deliverables based on{" "}
+                  <strong>real-time business needs</strong>
                 </p>
                 <p>
-                  <span>&#183;</span> Identify{" "}
-                  <strong>opportunities to stand out</strong> in an increasingly
-                  crowded marketplace
+                  <span>&#183;</span> Need a <strong>white paper</strong> one
+                  month and <strong>web copy</strong> the next? No prob!
                 </p>
                 <p>
-                  <span>&#183;</span> <strong>New for 2020!</strong> Includes
-                  custom copy and content you can implement right away
+                  <span>&#183;</span> <strong>Build a robust pipeline</strong>{" "}
+                  of engaging content and copy assets
                 </p>
               </ul>
             </div>
@@ -288,7 +289,7 @@ const ContentMarketingPage = ({ data }) => {
               <div>
                 <p className="package-eyebrow">Investment</p>
                 <div className="package-divider"></div>
-                <p className="price">Starting at $3,000</p>
+                <p className="price">Starting at $2,500</p>
               </div>
               <div className="package-button">
                 <ListLink to="/contact">
