@@ -259,10 +259,10 @@ const ContentMarketingPage = ({ data }) => {
             <p className="package-eyebrow">Overview</p>
             <div className="package-divider"></div>
             <p className="package-description">
-              Your voice should be as unique as your brand. Let me do the
-              research and analysis necessary to develop a messaging framework
-              that ensures every customer interaction builds trust and
-              highlights your expertise.
+              Your needs are unique and change from month to month. Let me help.
+              My custom monthly packages are designed to help you effortlessly
+              knock out the most pressing content and copy deliverables on your
+              to-do list.
             </p>
 
             <p className="package-eyebrow">Highlights</p>
