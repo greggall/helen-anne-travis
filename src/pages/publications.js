@@ -64,7 +64,7 @@ const BusinessesPage = ({ data }) => {
             Tampa Bay Times.
           </h2>
           <p>
-            Eevry day, I worked with multiple editors under tight deadlines to
+            Every day, I worked with multiple editors under tight deadlines to
             deliver news and features that were held to the highest standards.
           </p>
           <p>

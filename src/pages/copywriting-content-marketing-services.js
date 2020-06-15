@@ -95,7 +95,7 @@ const ContentMarketingPage = ({ data }) => {
               <p>
                 <span>&#183;</span> Get{" "}
                 <strong>a website that acts as your top salesperson</strong> —
-                all you have to do is close the deal.
+                all you have to do is close the deal
               </p>
             </ul>
           </div>
@@ -152,8 +152,8 @@ const ContentMarketingPage = ({ data }) => {
               <ul className="checked-list">
                 <p>
                   <span>&#183;</span>{" "}
-                  <strong>Increase traffic and leads.</strong> Google loves
-                  websites that regularly post new content!
+                  <strong>Increase traffic and leads</strong> &mdash; Google
+                  loves websites that regularly post new content!
                 </p>
                 <p>
                   <span>&#183;</span>{" "}
