@@ -121,7 +121,7 @@ const Portfolio = ({ data }) => {
                         href="https://media.clippings.me/cuttingpdfs/1127076/503d40c4da07dfae53e5ef060944d731.pdf?&_ga=2.12426419.601475816.1589917949-739005866.1580308791"
                         target="_blank"
                       >
-                        One Pager
+                        One-Pager
                       </a>
                     </p>
                   </div>
