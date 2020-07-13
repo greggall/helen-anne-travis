@@ -108,14 +108,14 @@ const Portfolio = ({ data }) => {
                         About
                       </a>
                     </p>
-                    <p>
+                    {/* <p>
                       <a
                         href="https://media.clippings.me/cuttingpdfs/1127077/84bff833aae6cd1c342909cd5165f8c7.pdf?&_ga=2.16743985.601475816.1589917949-739005866.1580308791"
                         target="_blank"
                       >
                         Our Story
                       </a>
-                    </p>
+                    </p> */}
                     <p>
                       <a
                         href="https://media.clippings.me/cuttingpdfs/1127076/503d40c4da07dfae53e5ef060944d731.pdf?&_ga=2.12426419.601475816.1589917949-739005866.1580308791"
