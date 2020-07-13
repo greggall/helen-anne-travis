@@ -102,7 +102,7 @@ const Portfolio = ({ data }) => {
                   <div className="clips-links">
                     <p>
                       <a
-                        href="https://media.clippings.me/cuttingpdfs/1127078/afe8f64676720ec861d6b1d5ddc84851.pdf?&_ga=2.13655216.601475816.1589917949-739005866.1580308791"
+                        href="https://media.clippings.me/cuttingpdfs/1156675/67a55f35e0e4478f5b77210368ee2bb9.pdf?&_ga=2.257566284.634364056.1594672860-2068460494.1594672860"
                         target="_blank"
                       >
                         About
