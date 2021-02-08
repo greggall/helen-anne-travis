@@ -80,7 +80,7 @@ export default ({ children }) => (
 
           <ButtonParent></ButtonParent>
           <ListLink to="/portfolio/">Portfolio</ListLink>
-          <ListLink to="/copywriting-content-marketing-services/">
+          <ListLink to="/copywriting-services/">
             Services
           </ListLink>
           <ListLink to="/contact/">Contact</ListLink>
