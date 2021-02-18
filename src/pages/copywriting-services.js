@@ -232,7 +232,7 @@ const ContentMarketingPage = ({ data }) => {
             </p>
             <p className="package-description">
               <strong>Lead magnets start at $1,500<br></br>
-              Lead nurture funnel start at at $3,000</strong>
+              Lead nurture funnels start at at $3,000</strong>
             </p>
 
             <div className="schedule-call">
