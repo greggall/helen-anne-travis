@@ -142,7 +142,8 @@ const ContentMarketingPage = ({ data }) => {
             Get website copy that does the hard work of selling for you. 
           </p>
           <p className="package-description">
-            Website transformations start at $6,750. Turnaround time is approximately 8 to 10 weeks.
+            <strong>Website refreshes start at $1,999<br></br>
+            Website transformations start at $6,500</strong>
           </p>
 
           {/*<p className="package-eyebrow">Highlights</p>
@@ -169,7 +170,7 @@ const ContentMarketingPage = ({ data }) => {
 
           <div className="schedule-call">
             <div>
-              <p className="waitlist-eyebrow">Most Popular Package!</p>
+              <p className="waitlist-eyebrow">Most Popular Packages!</p>
               
               {/* <p className="price">Starting at $4,000</p> */}
             </div>
@@ -230,7 +231,8 @@ const ContentMarketingPage = ({ data }) => {
               Build your list and keep visitors engaged with your brand.
             </p>
             <p className="package-description">
-              Funnel solutions start at $4,000. Turnaround time is approximately 4 to 6 weeks.
+              <strong>Lead magnets start at $1,500<br></br>
+              Lead nurture funnel start at at $3,000</strong>
             </p>
 
             <div className="schedule-call">
@@ -260,7 +262,7 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="added-bonus-wrap">
           <h1><span>**</span>Added Bonus!<span>**</span></h1>
-          <p>All of the packages above include one free month of weekly one-on-one coaching (a $1,500 value) to help you get the most ROI out of our engagement.</p>
+          <p>All of the packages above include one free month of weekly consultation calls (a $800 value) to help you get the most ROI out of our engagement.</p>
           <div className="bonus-benefits-wrapper">
               <div>
                 <Img
@@ -300,7 +302,7 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="package-wrap">
         <div className="package-details">
-          <p className="package-eyebrow">Can’t wait weeks for results? This is the fastest way for us to work together</p>
+          <p className="package-eyebrow">Need expert-level help with your most pressing copy and content needs?</p>
           <h1>VIP Strategy Sessions</h1>
           {/* <p className="package-eyebrow">Overview</p> */}
           {/* <div className="package-divider"></div> */}
@@ -308,7 +310,7 @@ const ContentMarketingPage = ({ data }) => {
             Get money-making sales copy faster than you ever imagined with my VIP sessions. 
           </p>
           <p className="package-description">
-            You’ll get full access to my brain — and 16 years of experience — for a full day. Together, we’ll transform your most important sales assets into revenue-driving machines.
+            You’ll get full access to my brain — and 16 years of experience — for a full day. Together, we’ll transform your most important marketing materials into revenue-driving machines.
           </p>
           <p className="package-description">
             Examples of what we can accomplish in a full-day session —
@@ -323,7 +325,7 @@ const ContentMarketingPage = ({ data }) => {
           </p>
           <p className="package-description">
             <strong>... or a content brainstorming</strong><br></br>
-            Get a list of personalized lead magnet and content ideas to strengthen your relationship with prospects at every stage of the buying cycle
+            Have a ton of ideas but don’t know where to start? I’ll help you understand what your audience needs to hear from you at each stage of the buying cycle.
           </p>
 
           {/*<p className="package-eyebrow">Highlights</p>
@@ -359,7 +361,11 @@ const ContentMarketingPage = ({ data }) => {
 
         <div className="choose-vip">
             <h1>Choose your VIP adventure</h1>
-            <p>One-hour deep dive: $295 | Half-day session: $750 | Full-day workshop: $1,500</p>
+            <h2>One-hour deep dive: $199 | Half-day session: $600 | Full-day workshop: $950</h2>
+            <p>Longer-term engagements also available!<br></br>
+            BONUS: VIP clients save 10% on future sessions
+            </p>
+
             <div className="package-button">
               <ListLink to="/contact">
                 <Button buttonText="I Want More Leads!" />
