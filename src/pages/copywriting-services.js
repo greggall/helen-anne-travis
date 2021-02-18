@@ -262,7 +262,7 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="added-bonus-wrap">
           <h1><span>**</span>Added Bonus!<span>**</span></h1>
-          <p>All of the packages above include one free month of weekly consultation calls (a $800 value) to help you get the most ROI out of our engagement.</p>
+          <p>All of the packages above include one free month of weekly consultation calls (an $800 value) to help you get the most ROI out of our engagement.</p>
           <div className="bonus-benefits-wrapper">
               <div>
                 <Img
@@ -317,7 +317,7 @@ const ContentMarketingPage = ({ data }) => {
           </p>
           <p className="package-description">
             <strong>Copy makeover</strong><br></br>
-            Got a webpage that’s not converting or a marketing brochure that’s kinda “meh?” I’ll help transform it into your most powerful sales asset
+            Got a webpage that’s not converting or a marketing brochure that’s kinda “meh”? I’ll help transform it into your most powerful sales asset.
           </p>
           <p className="package-description">
             <strong>... or a website audit</strong><br></br>
