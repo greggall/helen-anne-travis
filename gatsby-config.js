@@ -33,6 +33,14 @@ module.exports = {
         trackingId: "UA-166283610-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 2276250,
+        sv: 6,
+      },
+    },
   ],
   siteMetadata: {
     title: "Helen Anne Travis",
