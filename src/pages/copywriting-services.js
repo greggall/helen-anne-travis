@@ -361,7 +361,7 @@ const ContentMarketingPage = ({ data }) => {
 
         <div className="choose-vip">
             <h1>Choose your VIP adventure</h1>
-            <h2>Mini session: $199 | Half-day session: $650 | Full-day workshop: $950</h2>
+            <h2>Mini session: $325 | Half-day session: $650 | Full-day workshop: $950</h2>
             <p>Longer-term engagements also available!
             </p>
 
