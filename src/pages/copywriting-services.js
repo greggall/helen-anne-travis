@@ -361,9 +361,8 @@ const ContentMarketingPage = ({ data }) => {
 
         <div className="choose-vip">
             <h1>Choose your VIP adventure</h1>
-            <h2>One-hour deep dive: $199 | Half-day session: $600 | Full-day workshop: $950</h2>
-            <p>Longer-term engagements also available!<br></br>
-            BONUS: VIP clients save 10% on future sessions
+            <h2>Mini session: $199 | Half-day session: $650 | Full-day workshop: $950</h2>
+            <p>Longer-term engagements also available!
             </p>
 
             <div className="package-button">
