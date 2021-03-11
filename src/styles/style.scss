@@ -1148,7 +1148,7 @@ iframe .container {
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 72px auto;
+  margin: 72px auto 144px;
   justify-content: center;
   align-items: center;
   // background-color: #fafafa;
@@ -1317,6 +1317,7 @@ iframe .container {
   padding: $f2;
   border-radius: 15px;
   margin-top: -$f2;
+  margin-bottom: 0;
 }
 
 .choose-vip {

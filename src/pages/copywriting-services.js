@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Button from "../components/button"
 import Header from "../components/header"
+import RadioCheckedList from "../components/radio-checked-list"
 
 const ListLink = props => (
   <li>
@@ -217,18 +218,18 @@ const ContentMarketingPage = ({ data }) => {
             
           </div>
           <div className="package-details-swap">
-            <p className="package-eyebrow">Want to build deeper relationships with your website visitors?</p>
+            <p className="package-eyebrow">Want to engage website visitors who aren’t ready to convert?</p>
             <h1>Lead Magnets & Funnels</h1>
             {/* <p className="package-eyebrow">Overview</p> */}
             {/* <div className="package-divider"></div> */}
             <p className="package-description">
-              Developing meaningful customer relationships takes time. Time your team simply doesn’t have. 
+              Studies have shown that less than 5% of website visitors are ready to click “buy now” or “schedule a call.” That means 95% of your ideal prospects visit your site and then just ... leave.
             </p>
             <p className="package-description">
-              Let me help automate your customer engagement in the most powerful and authentic way. My funnel programs help you effortlessly build the trust you need to drive conversions.
+              Not on my watch!
             </p>
             <p className="package-description">
-              Build your list and keep visitors engaged with your brand.
+              My lead magnet and funnel programs help you nurture these prospects. So you can ensure fewer leads slip through the cracks.
             </p>
             <p className="package-description">
               <strong>Lead magnets start at $1,500<br></br>
@@ -260,9 +261,61 @@ const ContentMarketingPage = ({ data }) => {
         </div>
       </div>
 
+      <div className="package-wrap">
+        <div className="package-details">
+          <p className="package-eyebrow">Want to get more eyeballs on your website?</p>
+          <h1>Content Strategy & Development</h1>
+          {/* <p className="package-eyebrow">Overview</p> */}
+          {/* <div className="package-divider"></div> */}
+          <p className="package-description">
+            You know a smart content strategy can bring more leads to your site, increase brand loyalty and boost your Google ranking. 
+          </p>
+          <p className="package-description">
+            I'll help you understand exactly what your ideal prospects need to hear from you at each stage of the customer journey. I can also develop blogs, articles and other thought leadership assets.
+          </p>
+          <p className="package-description">
+            Build trust. Boost your traffic. Get results. 
+          </p>
+          <p className="package-description">
+            <strong>Blog packages start at $500/post<br></br>
+            Content strategy programs start at $2,750</strong>
+          </p>
+
+          <div className="schedule-call">
+            <div className="package-button">
+              <ListLink to="/contact">
+                <Button buttonText="I Want More Leads!" />
+              </ListLink>
+            </div>
+          </div>
+          <div className="package-divider"></div>
+          <div className="package-testimonial">
+            <p>“The level of care that Helen Anne applies to her projects always results in high-quality deliverables. Thanks to the content we've produced with her support, our traffic has increased year-over-year.”</p>
+            <div className="package-testimonial-person">
+              <Img
+                className="package-testimonial-image"
+                fixed={data.image36.childImageSharp.fixed}
+                alt=""
+              />
+              <h4 className="package-testimonial-name">Brittany Shulman</h4>
+              <h4>Global Content Strategist, Bazaarvoice</h4>
+            </div>
+          </div>
+        </div>
+        <div className="package-img">
+          <Img
+            className="website-copywriting"
+            fluid={data.image35.childImageSharp.fluid}
+            objectFit="cover"
+            alt=""
+          />
+          
+        </div>
+      </div>
+
       <div className="added-bonus-wrap">
           <h1><span>**</span>Added Bonus!<span>**</span></h1>
-          <p>All of the packages above include one free month of weekly consultation calls (an $800 value) to help you get the most ROI out of our engagement.</p>
+          <p>Select packages include one free month of weekly consultation calls (an $800 value) to help you get the most ROI out of our engagement.</p>
           <div className="bonus-benefits-wrapper">
               <div>
                 <Img
@@ -302,31 +355,27 @@ const ContentMarketingPage = ({ data }) => {
 
       <div className="package-wrap">
         <div className="package-details">
-          <p className="package-eyebrow">Need expert-level help with your most pressing copy and content needs?</p>
-          <h1>VIP Strategy Sessions</h1>
+          <p className="package-eyebrow">Need something a little more custom?</p>
+          <h1>VIP Sessions & Retainers</h1>
           {/* <p className="package-eyebrow">Overview</p> */}
           {/* <div className="package-divider"></div> */}
           <p className="package-description">
-            Get money-making sales copy faster than you ever imagined with my VIP sessions. 
+            You have an awesome team. But no one has the bandwidth to conceptualize and write all of the content and copy deliverables on your to-do list. 
           </p>
           <p className="package-description">
-            You’ll get full access to my brain — and 16 years of experience — for a full day. Together, we’ll transform your most important marketing materials into revenue-driving machines.
+            With my VIP programs, you'll have an experienced copywriter (psst that's me) working for you on a contract basis.
           </p>
           <p className="package-description">
-            Examples of what we can accomplish in a full-day session —
+            These hybrid copywriting/consulting packages are designed to help busy teams get expert help with their most pressing marketing and messaging goals.
           </p>
-          <p className="package-description">
-            <strong>Copy makeover</strong><br></br>
-            Got a webpage that’s not converting or a marketing brochure that’s kinda “meh”? I’ll help transform it into your most powerful sales asset.
+          <p className="package-description">      
+            They’re perfect if you:
           </p>
-          <p className="package-description">
-            <strong>... or a website audit</strong><br></br>
-            Worried your website is holding you back? I’ll show you the quick fixes you can make to drive more conversions ASAP.
-          </p>
-          <p className="package-description">
-            <strong>... or a content brainstorming</strong><br></br>
-            Have a ton of ideas but don’t know where to start? I’ll help you understand what your audience needs to hear from you at each stage of the buying cycle.
-          </p>
+          <ul className="checked-list worked-hard-checked-list" style={{marginTop: 0 + 'px'}}>
+            <RadioCheckedList text="Need occasional expert-level writing support"></RadioCheckedList>
+            <RadioCheckedList text="Feel like you’re too 'close' to your messaging"></RadioCheckedList>
+            <RadioCheckedList text="Have sales assets that are almost there, they just need some fresh eyes and extra polish"></RadioCheckedList>
+          </ul>
 
           {/*<p className="package-eyebrow">Highlights</p>
           <div className="package-divider"></div>
@@ -361,13 +410,13 @@ const ContentMarketingPage = ({ data }) => {
 
         <div className="choose-vip">
             <h1>Choose your VIP adventure</h1>
-            <h2>Mini session: $325 | Half-day session: $650 | Full-day workshop: $950</h2>
-            <p>Longer-term engagements also available!
+            <h2>Mini session: $325 | Half-day session: $650 | Full-day workshop: $1000</h2>
+            <p>Monthly retainers also available!
             </p>
 
             <div className="package-button">
               <ListLink to="/contact">
-                <Button buttonText="I Want More Leads!" />
+                <Button buttonText="Tell Me More!" />
               </ListLink>
             </div>
           
@@ -569,6 +618,14 @@ export const query = graphql`
 
     image34: file(relativePath: { eq: "images/trust-me.png" }) {
       ...cover
+    }
+
+    image35: file(relativePath: { eq: "images/content-strategy-development.png" }) {
+      ...cover
+    }
+
+    image36: file(relativePath: { eq: "images/brittany.png" }) {
+      ...fixed
     }
   }
 `
